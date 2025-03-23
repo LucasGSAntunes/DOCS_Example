@@ -1,5 +1,4 @@
 
-```
 # Project Documentation
 
 Welcome to the project documentation repository! This repository contains all the necessary documentation to understand the scope, objectives, and development process of the project.
@@ -12,7 +11,6 @@ Welcome to the project documentation repository! This repository contains all th
 
    ```bash
    python -m venv venv
-```
 
 2. **Activate the virtual environment:**
 
