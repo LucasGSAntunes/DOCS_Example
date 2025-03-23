@@ -1,0 +1,48 @@
+# Nome do site
+site_name: Meu Projeto Docs
+
+# Descrição do site (opcional)
+site_description: Documentação do projeto Meu Projeto Docs.
+
+# Autor do site (opcional)
+site_author: Seu Nome
+
+# URL do repositório (opcional)
+repo_url: https://github.com/<seu-usuario>/<seu-repositorio>
+
+# Tema (usando o tema Material)
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: teal
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+
+# Plugins
+plugins:
+  - search
+  - mkdocs-minify-plugin
+
+# Navegação
+nav:
+  - Home: index.md
+  - Visão Geral do Projeto: project-overview.md
+  - Visão Geral do Produto: product-overview.md
+  - Product Backlog Building: product-backlog-building.md
+  - MVPs: mvps.md
+  - Processo de Desenvolvimento: software-development-process.md
+  - Entregas do Projeto: project-deliverables.md
+  - Atas de Reunião: meeting-minutes.md
+  - Lições Aprendidas: lessons-learned.md
+  - Referências: references.md
+
+# Extras (opcional)
+extra:
+  analytics:
+    provider: google
+    property: UA-XXXXX-Y
+
+# Configurações de build (opcional)
+strict: true
+use_directory_urls: true
