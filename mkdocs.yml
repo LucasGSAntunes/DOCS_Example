@@ -1,48 +1,60 @@
-# Nome do site
-site_name: Meu Projeto Docs
+site_name: My Project Docs
 
-# Descrição do site (opcional)
-site_description: Documentação do projeto Meu Projeto Docs.
+site_description: Documentation for the My Project Docs.
 
-# Autor do site (opcional)
-site_author: Seu Nome
+site_author: Your Name
 
-# URL do repositório (opcional)
-repo_url: https://github.com/<seu-usuario>/<seu-repositorio>
+repo_url: https://github.com/<your-username>/<your-repository>
 
-# Tema (usando o tema Material)
 theme:
   name: material
   palette:
-    primary: indigo
-    accent: teal
+    primary: blue
+    accent: light-blue
   logo: assets/logo.png
   favicon: assets/favicon.ico
+  features:
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+    - toc.integrate
 
-# Plugins
 plugins:
   - search
-  - mkdocs-minify-plugin
 
-# Navegação
 nav:
   - Home: index.md
-  - Visão Geral do Projeto: project-overview.md
-  - Visão Geral do Produto: product-overview.md
+  - Project Overview: project-overview.md
+  - Project Vision: project-vision.md
+  - Project Objectives: project-objectives.md
+  - Stakeholders: stakeholders.md
+  - Product Overview: product-overview.md
   - Product Backlog Building: product-backlog-building.md
-  - MVPs: mvps.md
-  - Processo de Desenvolvimento: software-development-process.md
-  - Entregas do Projeto: project-deliverables.md
-  - Atas de Reunião: meeting-minutes.md
-  - Lições Aprendidas: lessons-learned.md
-  - Referências: references.md
+  - MVPs: mvp.md
+  - Software Development Process: project-lifecycle.md
+  - Project Roadmap: roadmap.md
+  - Workflow: workflow.md
+  - Issue Tracking & Task Management: issue-tracking.md
+  - Project Deliverables: deliverables.md
+  - Meeting Minutes: meetings.md
+  - Lessons Learned: lessons-learned.md
+  - References: references.md
+  - External Tools & Dependencies: tools.md
+  - API Documentation: api.md
+  - System Architecture: architecture.md
+  - Database Schema: database-schema.md
+  - Setup Guides:
+    - MkDocs Configuration: setup/mkdocs-configuration.md
+    - MkDocs Setup: setup/mkdocs-setup.md
+    - Publishing Guide: setup/publishing-guide.md
+    - Python Virtual Environment Setup: setup/python-venv-setup.md
+    - README: setup/readme.md
 
-# Extras (opcional)
 extra:
   analytics:
     provider: google
     property: UA-XXXXX-Y
 
-# Configurações de build (opcional)
 strict: true
 use_directory_urls: true
