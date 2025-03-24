@@ -1,5 +1,6 @@
 # 🌟 Project Vision
-[← Voltar para a Página Principal](index.md)
+
+[← Voltar para a Página Principal](../../index.md)
 
 ## Vision Statement
 
@@ -28,4 +29,4 @@ Our platform will not only shape the future of education but also democratize le
 - **Support lifelong learning**: Provide ongoing opportunities for growth and career advancement.
 - **Foster inclusion**: Break down barriers to education and empower all learners.
 
-[← Voltar para a Página Principal](index.md)
+[← Voltar para a Página Principal](../../index.md)

@@ -1,17 +1,23 @@
 # API Documentation: Content and User Management System
 
+[← Voltar para a Página Principal](../../../index.md)
+
 This API documentation provides a detailed overview of the available endpoints, request formats, responses, and error handling for the Content and User Management System. The system includes user management (registration, login, profile editing), content management (documents, topics), and subscription management functionalities.
 
 ## Base URL
+
 The base URL for all API requests is:
+
 ```
 https://api.example.com
 ```
 
 ## Authentication
+
 All requests that require authentication must include a **Bearer token** in the Authorization header. The token is obtained after a successful login.
 
 Example header:
+
 ```plaintext
 Authorization: Bearer <your-jwt-token>
 ```
@@ -290,3 +296,5 @@ Authorization: Bearer <your-jwt-token>
 - **401 Unauthorized**: Authentication required or failed.
 - **404 Not Found**: The requested resource could not be found.
 - **500 Internal Server Error**: An error occurred on the server.
+
+[← Voltar para a Página Principal](../../../index.md)

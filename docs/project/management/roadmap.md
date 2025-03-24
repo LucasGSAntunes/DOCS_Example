@@ -1,9 +1,13 @@
 # Project Roadmap
 
 ## Overview
+
+[← Voltar para a Página Principal](../../index.md)
+
 The roadmap outlines the phases and steps involved in the development and delivery of the user and content management system for doctors and administrators. The process follows an agile approach, ensuring continuous iteration, feedback, and improvement.
 
 ## Phase 1: Planning and Requirement Definition
+
 **Timeline: Month 1**
 
 - Define project requirements
@@ -12,11 +16,13 @@ The roadmap outlines the phases and steps involved in the development and delive
 - Create the product backlog and project roadmap
 
 ### Goals:
+
 - Map the core features
 - Establish necessary resources (technology, team members)
 - Identify key success metrics
 
 ## Phase 2: Design and Architecture
+
 **Timeline: Month 2**
 
 - Define the system architecture
@@ -24,11 +30,13 @@ The roadmap outlines the phases and steps involved in the development and delive
 - Define data flow and security protocols
 
 ### Goals:
+
 - Finalize design for the key screens
 - Define the database structure
 - Create wireframes and prototypes
 
 ## Phase 3: Initial Development and MVP
+
 **Timeline: Month 3-4**
 
 - Develop core functionalities (user registration, login, user management)
@@ -37,11 +45,13 @@ The roadmap outlines the phases and steps involved in the development and delive
 - Perform unit and integration tests for critical features
 
 ### Goals:
+
 - Build the initial version of the system
 - Test essential functionalities (doctor and admin registration)
 - Ensure login and user management are operational
 
 ## Phase 4: Testing and Validation
+
 **Timeline: Month 5**
 
 - Perform quality assurance (QA) tests
@@ -50,11 +60,13 @@ The roadmap outlines the phases and steps involved in the development and delive
 - Prepare for deployment
 
 ### Goals:
+
 - Validate MVP functionality
 - Identify improvements in design and features
 - Perform performance and security testing
 
 ## Phase 5: Launch and Implementation
+
 **Timeline: Month 6**
 
 - Deploy the system to production
@@ -62,11 +74,13 @@ The roadmap outlines the phases and steps involved in the development and delive
 - Offer post-launch support
 
 ### Goals:
+
 - Ensure system stability and proper functioning
 - Provide training to end-users (doctors and administrators)
 - Prepare user documentation and support materials
 
 ## Phase 6: Continuous Iteration and Improvements
+
 **Timeline: Month 7 onwards**
 
 - Continuous improvements based on user feedback
@@ -74,6 +88,7 @@ The roadmap outlines the phases and steps involved in the development and delive
 - Monitor and adjust the system
 
 ### Goals:
+
 - Make adjustments based on user needs and feedback
 - Release regular updates to fix bugs and enhance features
 - Expand the platform with additional features (e.g., more reports, new integrations)
@@ -81,5 +96,8 @@ The roadmap outlines the phases and steps involved in the development and delive
 ---
 
 ## Final Project Milestone
+
 - **Completion of MVP**: The user and content management system, with essential functionalities, is delivered and validated.
 - **Post-launch Enhancements**: After the initial launch, the roadmap will be adjusted based on new needs and user feedback.
+
+[← Voltar para a Página Principal](../../index.md)
