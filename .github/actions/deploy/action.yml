@@ -1,0 +1,14 @@
+name: 'Deploy MkDocs to GitHub Pages'
+description: 'Builds and deploys MkDocs documentation'
+
+inputs:
+  branch:
+    description: 'Branch to deploy to'
+    required: true
+    default: 'gh-pages'
+
+runs:
+  using: 'bash'
+  steps:
+    - name: Deploy Script
+      run: ./deploy.sh
