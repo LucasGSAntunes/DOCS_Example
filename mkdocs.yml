@@ -27,7 +27,7 @@ plugins:
 
 nav:
   - Home: index.md
-  - Project Overview:
+  - Project:
       - Overview: project/overview.md
       - Vision & Objectives:
           - Project Vision: project/vision-objectives/vision.md
@@ -37,7 +37,7 @@ nav:
           - Product Overview: project/product/overview.md
           - Product Backlog: project/product/product-backlog-building.md
           - MVPs: project/product/mvp.md
-  - Project Management:
+  - Management:
       - Roadmap: project/management/roadmap.md
       - Workflow: project/management/workflow.md
       - Issue Tracking & Task Management: project/management/issue-tracking.md
