@@ -108,4 +108,16 @@
   - O relatório está completo e cobre todos os aspectos do projeto.
   - A documentação está clara e bem estruturada, com gráficos e análises quando necessário.
 
+
+
+# Revision History
+
+| Date       | Version | Changes                           | Authors |
+| ---------- | ------- | --------------------------------- | ------- |
+| 02/04/2024 | 0.1     | Document creation                 |         |
+| 06/04/2024 | 0.2     | Topics 1.1, 1.2, 1.3, and 3       |         |
+| 16/04/2024 | 0.3     | Documentation on Git Pages        |         |
+| 09/09/2024 | 0.4     | Updated technologies and app type |         |
+| 09/09/2024 | 0.5     | Technology adjustments            |         |
+
 [← Voltar para a Página Principal](../../index.md)

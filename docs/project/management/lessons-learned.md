@@ -48,5 +48,18 @@
 
 - **Lição:** Houve uma complexidade maior do que o esperado na implementação de pagamentos e gerenciamento de assinaturas, devido à integração com provedores externos de pagamentos e diferentes planos de assinatura.
 - **Ação:** Realizamos uma análise detalhada e uma escolha mais cuidadosa do provedor de pagamento, além de implementar testes de carga e simulações de pagamento para garantir uma experiência sem falhas.
-- **Resultado:** O gerenciamento de pagamentos e assinaturas foi muito mais eficiente e estável após essas mudanças, melhorando a experiência do usuário e a confiabilidade do sistema.
-  [← Voltar para a Página Principal](../../index.md)
+- **Resultado:** O gerenciamento de pagamentos e assinaturas foi muito mais eficiente e estável após essas mudanças, melhorando a experiência do usuário e a confiabilidade do sistema
+
+
+
+# Revision History
+
+| Date       | Version | Changes                           | Authors |
+| ---------- | ------- | --------------------------------- | ------- |
+| 02/04/2024 | 0.1     | Document creation                 |         |
+| 06/04/2024 | 0.2     | Topics 1.1, 1.2, 1.3, and 3       |         |
+| 16/04/2024 | 0.3     | Documentation on Git Pages        |         |
+| 09/09/2024 | 0.4     | Updated technologies and app type |         |
+| 09/09/2024 | 0.5     | Technology adjustments            |         |
+
+[← Voltar para a Página Principal](../../index.md)

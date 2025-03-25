@@ -297,4 +297,15 @@ Authorization: Bearer <your-jwt-token>
 - **404 Not Found**: The requested resource could not be found.
 - **500 Internal Server Error**: An error occurred on the server.
 
+
+# Revision History
+
+| Date       | Version | Changes                           | Authors |
+| ---------- | ------- | --------------------------------- | ------- |
+| 02/04/2024 | 0.1     | Document creation                 |         |
+| 06/04/2024 | 0.2     | Topics 1.1, 1.2, 1.3, and 3       |         |
+| 16/04/2024 | 0.3     | Documentation on Git Pages        |         |
+| 09/09/2024 | 0.4     | Updated technologies and app type |         |
+| 09/09/2024 | 0.5     | Technology adjustments            |         |
+
 [← Voltar para a Página Principal](../../../index.md)

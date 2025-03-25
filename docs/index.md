@@ -1,4 +1,3 @@
-
 # My Project Docs
 
 Welcome to the **My Project Docs** documentation! Here, you will find all the essential information about the project, from an overview to technical and configuration details.
@@ -78,3 +77,13 @@ Welcome to the **My Project Docs** documentation! Here, you will find all the es
 ---
 
 🔹 Explore the documentation and take advantage of the available resources to better understand the project! 🚀
+
+# Revision History
+
+| Date       | Version | Changes                           | Authors |
+| ---------- | ------- | --------------------------------- | ------- |
+| 02/04/2024 | 0.1     | Document creation                 |         |
+| 06/04/2024 | 0.2     | Topics 1.1, 1.2, 1.3, and 3       |         |
+| 16/04/2024 | 0.3     | Documentation on Git Pages        |         |
+| 09/09/2024 | 0.4     | Updated technologies and app type |         |
+| 09/09/2024 | 0.5     | Technology adjustments            |         |

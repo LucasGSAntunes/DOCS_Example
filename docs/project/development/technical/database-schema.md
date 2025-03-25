@@ -127,7 +127,7 @@ Tabela que armazena informações sobre as assinaturas dos médicos.
    | created_at              |
    | updated_at              |
    +-------------------------+
-     
+   
    +-------------------------+
    | Subscription            |
    |-------------------------|
@@ -145,5 +145,17 @@ Tabela que armazena informações sobre as assinaturas dos médicos.
 
 - **PK (Primary Key)**: Chave primária, usada para identificar unicamente um registro.
 - **FK (Foreign Key)**: Chave estrangeira, usada para estabelecer um relacionamento com outra tabela.
+
+
+
+# Revision History
+
+| Date       | Version | Changes                           | Authors |
+| ---------- | ------- | --------------------------------- | ------- |
+| 02/04/2024 | 0.1     | Document creation                 |         |
+| 06/04/2024 | 0.2     | Topics 1.1, 1.2, 1.3, and 3       |         |
+| 16/04/2024 | 0.3     | Documentation on Git Pages        |         |
+| 09/09/2024 | 0.4     | Updated technologies and app type |         |
+| 09/09/2024 | 0.5     | Technology adjustments            |         |
 
 [← Voltar para a Página Principal](../../../index.md)
