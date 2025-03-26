@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#lessons-learned-content-and-user-management-project" class="md-skip">
+        <a href="#lessons-learned" class="md-skip">
           Skip to content
         </a>
       
@@ -682,6 +682,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
@@ -710,99 +712,14 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#lessons-learned-content-and-user-management-project" class="md-nav__link">
-    <span class="md-ellipsis">
-      Lessons Learned - Content and User Management Project
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Lessons Learned - Content and User Management Project">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-importance-of-defining-requirements-clearly" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. Importance of Defining Requirements Clearly
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-the-importance-of-automated-testing" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. The Importance of Automated Testing
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-dependency-and-update-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. Dependency and Update Management
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4-communication-between-team-and-stakeholders" class="md-nav__link">
-    <span class="md-ellipsis">
-      4. Communication Between Team and Stakeholders
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#5-the-value-of-adequate-documentation" class="md-nav__link">
-    <span class="md-ellipsis">
-      5. The Value of Adequate Documentation
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#6-scalability-planning" class="md-nav__link">
-    <span class="md-ellipsis">
-      6. Scalability Planning
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#7-the-importance-of-continuous-integration-and-automated-deployment" class="md-nav__link">
-    <span class="md-ellipsis">
-      7. The Importance of Continuous Integration and Automated Deployment
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#8-challenges-with-subscription-management-and-payment-processing" class="md-nav__link">
-    <span class="md-ellipsis">
-      8. Challenges with Subscription Management and Payment Processing
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
   <a href="#revision-history" class="md-nav__link">
@@ -1290,67 +1207,68 @@
   
 
 
-  <h1>Lessons Learned</h1>
-
-<h3 id="lessons-learned-content-and-user-management-project"><strong>Lessons Learned - Content and User Management Project</strong></h3>
+<h1 id="lessons-learned"><strong>Lessons Learned</strong></h1>
 <p><a href="../../../">← Back to Main Page</a></p>
-<h4 id="1-importance-of-defining-requirements-clearly"><strong>1. Importance of Defining Requirements Clearly</strong></h4>
-<ul>
-<li><strong>Lesson:</strong> During the initial stages of the project, we had difficulties in clearly defining all the system requirements. Some users and stakeholders were not fully aware of the necessary functionalities, which led to frequent changes in priorities and scope.</li>
-<li><strong>Action:</strong> Clearly and precisely defining the requirements is essential for the successful execution of the project. Investing time in detailed documentation and early stakeholder involvement can minimize changes throughout the project lifecycle.</li>
-<li><strong>Result:</strong> Constant scope changes caused rework and delays. A deeper analysis at the beginning could have saved time and resources.</li>
-</ul>
-<h4 id="2-the-importance-of-automated-testing"><strong>2. The Importance of Automated Testing</strong></h4>
-<ul>
-<li><strong>Lesson:</strong> Initially, we did not prioritize automated testing, which led to failures in manual tests in some versions of the system. This directly impacted code quality and generated unexpected failures in production environments.</li>
-<li><strong>Action:</strong> The adoption of automated testing was a positive change that improved the reliability and maintenance of the system.</li>
-<li><strong>Result:</strong> Implementing automated tests from the start ensures that changes do not break existing functionality, saving time in the long run.</li>
-</ul>
-<h4 id="3-dependency-and-update-management"><strong>3. Dependency and Update Management</strong></h4>
-<ul>
-<li><strong>Lesson:</strong> During development, we encountered difficulties in managing external dependencies, especially with packages and libraries that required specific versions. Lack of control over these versions caused incompatibilities in some system versions.</li>
-<li><strong>Action:</strong> Using version control tools like <code>npm</code> to ensure that all dependencies are compatible and well-documented.</li>
-<li><strong>Result:</strong> By establishing a clear process for managing dependencies and versions, we avoided compatibility issues and ensured stability.</li>
-</ul>
-<h4 id="4-communication-between-team-and-stakeholders"><strong>4. Communication Between Team and Stakeholders</strong></h4>
-<ul>
-<li><strong>Lesson:</strong> At certain points in the project, communication between the development team and stakeholders was inefficient. This resulted in misalignment on the delivered features and delays in the review of deliverables.</li>
-<li><strong>Action:</strong> We established regular feedback meetings with stakeholders to review progress and ensure everyone involved was aligned on the project goals.</li>
-<li><strong>Result:</strong> This improved transparency and helped ensure all expectations were aligned. Additionally, the development team was able to adjust priorities according to continuous feedback.</li>
-</ul>
-<h4 id="5-the-value-of-adequate-documentation"><strong>5. The Value of Adequate Documentation</strong></h4>
-<ul>
-<li><strong>Lesson:</strong> During development, documentation was neglected in some stages, which caused confusion and difficulties during deployment and system maintenance.</li>
-<li><strong>Action:</strong> We decided to properly document each step of the development process, including system architecture, workflows, and API details.</li>
-<li><strong>Result:</strong> Complete and well-organized documentation made deployment and future updates faster and less prone to errors. It also facilitated the training of new team members.</li>
-</ul>
-<h4 id="6-scalability-planning"><strong>6. Scalability Planning</strong></h4>
-<ul>
-<li><strong>Lesson:</strong> Initially, we did not focus enough on scalability planning, which caused challenges when trying to expand the system as the user base grew.</li>
-<li><strong>Action:</strong> During development, we implemented better scalability practices from the start, such as the use of microservices and load balancing.</li>
-<li><strong>Result:</strong> The system's scalability significantly improved, allowing it to support an increase in users and data without compromising performance.</li>
-</ul>
-<h4 id="7-the-importance-of-continuous-integration-and-automated-deployment"><strong>7. The Importance of Continuous Integration and Automated Deployment</strong></h4>
-<ul>
-<li><strong>Lesson:</strong> Continuous integration and automated deployment were not implemented from the beginning, which caused delays in version delivery and made it difficult to quickly identify errors.</li>
-<li><strong>Action:</strong> We implemented CI/CD pipelines to integrate code more frequently and automate the deployment of new versions of the system.</li>
-<li><strong>Result:</strong> Continuous integration and automated delivery significantly reduced errors in production and improved the efficiency of the development team.</li>
-</ul>
-<h4 id="8-challenges-with-subscription-management-and-payment-processing"><strong>8. Challenges with Subscription Management and Payment Processing</strong></h4>
-<ul>
-<li><strong>Lesson:</strong> There was more complexity than expected in implementing payments and subscription management due to integration with external payment providers and different subscription plans.</li>
-<li><strong>Action:</strong> We conducted detailed analysis and a more careful selection of the payment provider, in addition to implementing load testing and payment simulations to ensure a flawless experience.</li>
-<li><strong>Result:</strong> Payment and subscription management became much more efficient and stable after these changes, improving the user experience and system reliability.</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th><strong>Lesson</strong></th>
+<th><strong>Action</strong></th>
+<th><strong>Result</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1. Importance of Defining Requirements Clearly</strong></td>
+<td>Clearly and precisely defining the requirements is essential for the successful execution of the project. Early documentation and stakeholder involvement are key.</td>
+<td>Constant scope changes caused rework and delays. A deeper analysis at the beginning could have saved time and resources.</td>
+</tr>
+<tr>
+<td><strong>2. The Importance of Automated Testing</strong></td>
+<td>The adoption of automated testing was a positive change to improve system reliability and maintenance.</td>
+<td>Implementing automated tests ensures that changes do not break existing functionality, saving time in the long run.</td>
+</tr>
+<tr>
+<td><strong>3. Dependency and Update Management</strong></td>
+<td>Use version control tools like <code>npm</code>to manage external dependencies and ensure compatibility across all system versions.</td>
+<td>By managing dependencies and versions effectively, compatibility issues were avoided and stability was ensured.</td>
+</tr>
+<tr>
+<td><strong>4. Communication Between Team and Stakeholders</strong></td>
+<td>Establish regular feedback meetings to ensure all stakeholders are aligned on project goals and deliverables.</td>
+<td>Improved transparency, aligned expectations, and the ability to adjust priorities based on continuous feedback.</td>
+</tr>
+<tr>
+<td><strong>5. The Value of Adequate Documentation</strong></td>
+<td>Properly document each step of the development process, including system architecture, workflows, and API details.</td>
+<td>Well-organized documentation made deployment and future updates faster and less prone to errors, facilitating new team member training.</td>
+</tr>
+<tr>
+<td><strong>6. Scalability Planning</strong></td>
+<td>Implement scalability practices such as microservices and load balancing from the start to accommodate growth.</td>
+<td>The system’s scalability improved, supporting more users and data without sacrificing performance.</td>
+</tr>
+<tr>
+<td><strong>7. The Importance of Continuous Integration and Automated Deployment</strong></td>
+<td>Implement CI/CD pipelines for frequent integration and automation of deployments to ensure faster releases and error identification.</td>
+<td>Continuous integration and automated delivery reduced production errors and improved team efficiency.</td>
+</tr>
+<tr>
+<td><strong>8. Challenges with Subscription Management and Payment Processing</strong></td>
+<td>Conduct detailed analysis, select payment providers carefully, and implement load testing and payment simulations.</td>
+<td>Payment and subscription management became more efficient and stable, improving the user experience and system reliability.</td>
+</tr>
+</tbody>
+</table>
 <hr />
 <h3 id="revision-history"><strong>Revision History</strong></h3>
 <table>
 <thead>
 <tr>
-<th>Date</th>
-<th>Version</th>
-<th>Changes</th>
-<th>Authors</th>
+<th><strong>Date</strong></th>
+<th><strong>Version</strong></th>
+<th><strong>Changes</strong></th>
+<th><strong>Authors</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -1363,7 +1281,7 @@
 <tr>
 <td>06/04/2024</td>
 <td>0.2</td>
-<td>Topics 1.1, 1.2, 1.3, and 3</td>
+<td>Topics 1.1, 1.2, 1.3, and 3 added</td>
 <td></td>
 </tr>
 <tr>
