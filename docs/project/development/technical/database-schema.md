@@ -1,86 +1,84 @@
-# **Esquema de Banco de Dados**
 
-[← Voltar para a Página Principal](../../../index.md)
+# **Database Schema**
 
-## **1. Tabelas**
+[← Back to Main Page](../../../index.md)
+
+## **1. Tables**
 
 ### **1.1. Users**
 
-Tabela que armazena informações sobre os usuários do sistema, como médicos e administradores.
+Table that stores information about system users, such as doctors and administrators.
 
-| Coluna     | Tipo         | Descrição                                           |
-| ---------- | ------------ | ----------------------------------------------------- |
-| id         | UUID         | Identificador único do usuário (Chave Primária)    |
-| name       | VARCHAR(255) | Nome do usuário                                      |
-| email      | VARCHAR(255) | Email único do usuário (Chave Única)               |
-| password   | VARCHAR(255) | Senha do usuário, criptografada                      |
-| role       | ENUM         | Role do usuário (e.g.,`doctor`, `administrator`) |
-| created_at | TIMESTAMP    | Data de criação do registro                         |
-| updated_at | TIMESTAMP    | Data de última atualização do registro             |
+| Column     | Type         | Description                                     |
+| ---------- | ------------ | ----------------------------------------------- |
+| id         | UUID         | Unique identifier for the user (Primary Key)    |
+| name       | VARCHAR(255) | User's name                                     |
+| email      | VARCHAR(255) | Unique email for the user (Unique Key)          |
+| password   | VARCHAR(255) | User's encrypted password                       |
+| role       | ENUM         | User's role (e.g.,`doctor`,`administrator`) |
+| created_at | TIMESTAMP    | Record creation date                            |
+| updated_at | TIMESTAMP    | Last record update date                         |
 
 ### **1.2. Documents**
 
-Tabela que armazena informações sobre os documentos cadastrados no sistema.
+Table that stores information about documents registered in the system.
 
-| Coluna     | Tipo         | Descrição                                                                         |
-| ---------- | ------------ | ----------------------------------------------------------------------------------- |
-| id         | UUID         | Identificador único do documento (Chave Primária)                                 |
-| title      | VARCHAR(255) | Título do documento                                                                |
-| content    | TEXT         | Conteúdo do documento                                                              |
-| created_by | UUID         | ID do usuário que criou o documento (Chave Estrangeira referenciando `Users.id`) |
-| created_at | TIMESTAMP    | Data de criação do documento                                                      |
-| updated_at | TIMESTAMP    | Data de última atualização do documento                                          |
+| Column     | Type         | Description                                                             |
+| ---------- | ------------ | ----------------------------------------------------------------------- |
+| id         | UUID         | Unique identifier for the document (Primary Key)                        |
+| title      | VARCHAR(255) | Document title                                                          |
+| content    | TEXT         | Document content                                                        |
+| created_by | UUID         | User ID who created the document (Foreign Key referencing `Users.id`) |
+| created_at | TIMESTAMP    | Document creation date                                                  |
+| updated_at | TIMESTAMP    | Last document update date                                               |
 
 ### **1.3. Topics**
 
-Tabela que armazena os tópicos relacionados aos documentos.
+Table that stores topics related to documents.
 
-| Coluna     | Tipo         | Descrição                                       |
-| ---------- | ------------ | ------------------------------------------------- |
-| id         | UUID         | Identificador único do tópico (Chave Primária) |
-| name       | VARCHAR(255) | Nome do tópico                                   |
-| created_at | TIMESTAMP    | Data de criação do tópico                      |
-| updated_at | TIMESTAMP    | Data de última atualização do tópico          |
+| Column     | Type         | Description                                   |
+| ---------- | ------------ | --------------------------------------------- |
+| id         | UUID         | Unique identifier for the topic (Primary Key) |
+| name       | VARCHAR(255) | Topic name                                    |
+| created_at | TIMESTAMP    | Topic creation date                           |
+| updated_at | TIMESTAMP    | Last topic update date                        |
 
-### **1.4. Document_Topics (Relacional)**
+### **1.4. Document_Topics (Relational)**
 
-Tabela intermediária que associa documentos e tópicos, permitindo que um documento tenha múltiplos tópicos.
+Intermediate table that associates documents and topics, allowing a document to have multiple topics.
 
-| Coluna      | Tipo | Descrição                                                        |
-| ----------- | ---- | ------------------------------------------------------------------ |
-| document_id | UUID | ID do documento (Chave Estrangeira referenciando `Documents.id`) |
-| topic_id    | UUID | ID do tópico (Chave Estrangeira referenciando `Topics.id`)      |
+| Column      | Type | Description                                            |
+| ----------- | ---- | ------------------------------------------------------ |
+| document_id | UUID | Document ID (Foreign Key referencing `Documents.id`) |
+| topic_id    | UUID | Topic ID (Foreign Key referencing `Topics.id`)       |
 
 ### **1.5. Subscription**
 
-Tabela que armazena informações sobre as assinaturas dos médicos.
+Table that stores information about doctors' subscriptions.
 
-| Coluna     | Tipo      | Descrição                                                  |
-| ---------- | --------- | ------------------------------------------------------------ |
-| id         | UUID      | Identificador único da assinatura (Chave Primária)         |
-| doctor_id  | UUID      | ID do médico (Chave Estrangeira referenciando `Users.id`) |
-| start_date | TIMESTAMP | Data de início da assinatura                                |
-| end_date   | TIMESTAMP | Data de término da assinatura                               |
-| status     | ENUM      | Status da assinatura (e.g.,`active`, `inactive`)         |
-| created_at | TIMESTAMP | Data de criação da assinatura                              |
-| updated_at | TIMESTAMP | Data de última atualização da assinatura                  |
+| Column     | Type      | Description                                          |
+| ---------- | --------- | ---------------------------------------------------- |
+| id         | UUID      | Unique identifier for the subscription (Primary Key) |
+| doctor_id  | UUID      | Doctor ID (Foreign Key referencing `Users.id`)     |
+| start_date | TIMESTAMP | Subscription start date                              |
+| end_date   | TIMESTAMP | Subscription end date                                |
+| status     | ENUM      | Subscription status (e.g.,`active`,`inactive`)   |
+| created_at | TIMESTAMP | Subscription creation date                           |
+| updated_at | TIMESTAMP | Last subscription update date                        |
 
-## **2. Relacionamentos**
+## **2. Relationships**
 
 1. **Users ↔ Documents:**
-
-   - Um **usuário** (médico ou administrador) pode criar vários **documentos**, mas cada documento é criado por um único usuário.
-   - Relacionamento de **um para muitos** entre `Users` e `Documents`.
+   * A **user** (doctor or administrator) can create multiple  **documents** , but each document is created by a single user.
+   * **One-to-many** relationship between `Users` and `Documents`.
 2. **Documents ↔ Topics:**
-
-   - Um **documento** pode estar associado a múltiplos **tópicos** e um **tópico** pode ser associado a múltiplos **documentos**.
-   - Relacionamento de **muitos para muitos** entre `Documents` e `Topics`, resolvido pela tabela intermediária `Document_Topics`.
+   * A **document** can be associated with multiple  **topics** , and a **topic** can be associated with multiple  **documents** .
+   * **Many-to-many** relationship between `Documents` and `Topics`, resolved by the intermediate table `Document_Topics`.
 3. **Users ↔ Subscription:**
+   * A **user** (doctor) can have a single  **subscription** , but a subscription is linked to only one  **user** .
+   * **One-to-one** relationship between `Users` and `Subscription` (for doctors).
 
-   - Um **usuário** (médico) pode ter uma única **assinatura**, mas uma assinatura é vinculada a apenas um **usuário**.
-   - Relacionamento de **um para um** entre `Users` e `Subscription` (para médicos).
-
-## **3. Exemplo de Diagrama Entidade-Relacionamento (ERD)**
+## **3. Example Entity-Relationship Diagram (ERD)**
 
 ```
   Users
@@ -127,7 +125,7 @@ Tabela que armazena informações sobre as assinaturas dos médicos.
    | created_at              |
    | updated_at              |
    +-------------------------+
-     
+   
    +-------------------------+
    | Subscription            |
    |-------------------------|
@@ -141,9 +139,19 @@ Tabela que armazena informações sobre as assinaturas dos médicos.
    +-------------------------+
 ```
 
-## **4. Explicações de Campos**
+## **4. Field Explanations**
 
-- **PK (Primary Key)**: Chave primária, usada para identificar unicamente um registro.
-- **FK (Foreign Key)**: Chave estrangeira, usada para estabelecer um relacionamento com outra tabela.
+* **PK (Primary Key)** : Primary key, used to uniquely identify a record.
+* **FK (Foreign Key)** : Foreign key, used to establish a relationship with another table.
 
-[← Voltar para a Página Principal](../../../index.md)
+# Revision History
+
+| Date       | Version | Changes                           | Authors |
+| ---------- | ------- | --------------------------------- | ------- |
+| 02/04/2024 | 0.1     | Document creation                 |         |
+| 06/04/2024 | 0.2     | Topics 1.1, 1.2, 1.3, and 3       |         |
+| 16/04/2024 | 0.3     | Documentation on Git Pages        |         |
+| 09/09/2024 | 0.4     | Updated technologies and app type |         |
+| 09/09/2024 | 0.5     | Technology adjustments            |         |
+
+[← Back to Main Page](../../../index.md)

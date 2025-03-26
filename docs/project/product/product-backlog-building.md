@@ -1,6 +1,6 @@
 # Product Backlog Building
 
-[← Voltar para a Página Principal](../../index.md)
+[← Back to Main Page](../../index.md)
 
 ## Guide to Reviewing This Documentation
 
@@ -171,4 +171,14 @@ O backlog do projeto é uma lista abrangente de todas as tarefas, funcionalidade
 | TM01 | EP01 Gestão de Conteúdos e Usuários | C02 Gerenciamento de Conteúdos | F06 Criação e Listagem de Documentos     | US17       | Como administrador, eu gostaria de listar assuntos para visualizar os assuntos cadastrados em um documento               |
 | TM01 | EP01 Gestão de Conteúdos e Usuários | C02 Gerenciamento de Conteúdos | F07 Edição e Exclusão de Documentos     | US18       | Como administrador, eu gostaria de editar um assunto para atualizar o material                                           |
 
-[← Voltar para a Página Principal](../../index.md)
+# Revision History
+
+| Date       | Version | Changes                           | Authors |
+| ---------- | ------- | --------------------------------- | ------- |
+| 02/04/2024 | 0.1     | Document creation                 |         |
+| 06/04/2024 | 0.2     | Topics 1.1, 1.2, 1.3, and 3       |         |
+| 16/04/2024 | 0.3     | Documentation on Git Pages        |         |
+| 09/09/2024 | 0.4     | Updated technologies and app type |         |
+| 09/09/2024 | 0.5     | Technology adjustments            |         |
+
+[← Back to Main Page](../../index.md)

@@ -1,69 +1,31 @@
-# 📌 Project Life Cycle
 
-[← Voltar para a Página Principal](../../index.md)
+# Project Life Cycle
 
-This document outlines the **Project Life Cycle**, from conception to final delivery. Each stage is essential to ensure structured development, minimizing risks, and maximizing the product quality.
+[← Back to Main Page](../../index.md)
 
----
-
-## **1️⃣ Elicitation and Discovery**
-
-📌 **Objective:** Identify the needs and expectations of stakeholders.
-
-🔹 Requirements gathering through interviews, surveys, and market analysis.
-🔹 Identifying project challenges and opportunities.
-🔹 Defining the users and their key pain points.
+This document describes the  **Project Life Cycle** , from conception to final delivery. Each phase is crucial for ensuring a structured development process, minimizing risks, and maximizing product quality.
 
 ---
 
-## **2️⃣ Analysis and Consensus**
+## Project Phases
 
-📌 **Objective:** Refine and validate the gathered requirements.
-
-🔹 Prioritization of requirements based on feasibility and impact.
-🔹 Validation with stakeholders to ensure alignment.
-🔹 Defining success metrics for project evaluation.
-
----
-
-## **3️⃣ Declaration**
-
-📌 **Objective:** Formalize the requirements and establish a clear scope.
-
-🔹 Official documentation of functional and non-functional requirements.
-🔹 Defining acceptance criteria.
-🔹 Creation of an initial backlog and product roadmap.
+| Phase                       | Objective                                               | Key Activities                                                                                                                                      |
+| --------------------------- | ------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Elicitation and Discovery   | Identify the needs and expectations of stakeholders.    | Collect requirements through interviews and market analysis. Identify challenges and opportunities. Define users and their key problems.            |
+| Analysis and Consensus      | Refine and validate the collected requirements.         | Prioritize requirements based on feasibility and impact. Validate with stakeholders. Define success metrics.                                        |
+| Declaration                 | Formalize requirements and establish a clear scope.     | Official documentation of functional and non-functional requirements. Define acceptance criteria. Create the initial backlog and product roadmap.   |
+| Representation              | Create models and prototypes to visualize the solution. | Develop low-fidelity wireframes and prototypes. Model user flows and processes. Continuous feedback with stakeholders for adjustments.              |
+| Verification and Validation | Ensure that the requirements are correctly implemented. | Functionality, usability, and performance testing. Review compliance with requirements and acceptance criteria. Adjustments based on test feedback. |
+| Organization and Update     | Keep the project documentation organized and updated.   | Record changes and backlog evolution. Plan new iterations and refine requirements. Monitor system adoption and performance.                         |
 
 ---
 
-## **4️⃣ Representation**
+## Revision History
 
-📌 **Objective:** Create models and prototypes for solution visualization.
-
-🔹 Development of wireframes and low-fidelity prototypes.
-🔹 Modeling of user flows and system processes.
-🔹 Continuous feedback with stakeholders for adjustments and improvements.
-
----
-
-## **5️⃣ Verification and Validation**
-
-📌 **Objective:** Ensure the requirements are implemented correctly.
-
-🔹 Testing for functionality, usability, and performance.
-🔹 Review of compliance with requirements and acceptance criteria.
-🔹 Adjustments based on feedback from initial testing.
-
----
-
-## **6️⃣ Organization and Update**
-
-📌 **Objective:** Keep the project documentation up to date and organized.
-
-🔹 Recording changes and backlog evolution.
-🔹 Planning for new iterations and refining requirements.
-🔹 Monitoring the adoption and performance of the system.
-
----
-
-[← Voltar para a Página Principal](../../index.md)
+| Date                                | Version | Changes                           | Authors |
+| ----------------------------------- | ------- | --------------------------------- | ------- |
+| 02/04/2024                          | 0.1     | Document creation                 |         |
+| 06/04/2024                          | 0.2     | Topics 1.1, 1.2, 1.3, and 3       |         |
+| 16/04/2024                          | 0.3     | Documentation on Git Pages        |         |
+| 09/09/2024                          | 0.4     | Updated technologies and app type |         |
+| [← Back to Main Page](../../index.md) |         |                                   |         |

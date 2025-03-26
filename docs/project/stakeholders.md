@@ -1,103 +1,44 @@
-# 👥 Stakeholders
+# Stakeholders
 
-[← Voltar para a Página Principal](../index.md)
+[← Back to Main Page](../index.md)
 
 ## Overview
 
-This document provides an overview of the stakeholders involved in the project, their roles, and how they contribute to the success of the initiative. Understanding the interests, expectations, and involvement of each stakeholder is crucial for ensuring effective communication and alignment throughout the project lifecycle.
+Este documento fornece uma visão geral dos stakeholders envolvidos no projeto, seus papéis e como contribuem para o sucesso da iniciativa. Compreender os interesses, expectativas e o envolvimento de cada stakeholder é crucial para garantir uma comunicação eficaz e o alinhamento durante todo o ciclo de vida do projeto.
 
 ## Stakeholder Identification
 
-### 1. **Project Sponsor**
-
-- **Role**: The Project Sponsor is the primary decision-maker and funding authority for the project. This individual is responsible for ensuring that the project aligns with organizational goals and securing resources.
-- **Responsibilities**:
-  - Approve project budget and scope.
-  - Make key decisions related to project direction.
-  - Resolve high-level risks and issues.
-- **Expectations**:
-  - Timely delivery of the project within budget.
-  - High-level alignment with organizational strategic goals.
-  - Clear communication of progress and potential risks.
-
-### 2. **Project Manager**
-
-- **Role**: The Project Manager is responsible for overseeing the daily operations of the project, ensuring the team meets deadlines, and managing the project's scope, schedule, and resources.
-- **Responsibilities**:
-  - Plan, execute, and monitor project progress.
-  - Coordinate team activities and resources.
-  - Manage risks and issues that may arise during the project.
-- **Expectations**:
-  - Successful completion of the project within agreed-upon parameters.
-  - Regular updates on project status to the Project Sponsor and other stakeholders.
-  - Effective team management and stakeholder engagement.
-
-### 3. **Development Team**
-
-- **Role**: The Development Team consists of software engineers, designers, and testers who build, test, and deploy the solution.
-- **Responsibilities**:
-  - Develop software according to project specifications.
-  - Perform quality assurance and testing.
-  - Participate in project meetings and discussions.
-- **Expectations**:
-  - High-quality code that meets user requirements.
-  - Timely delivery of features and milestones.
-  - Active participation in problem-solving and brainstorming sessions.
-
-### 4. **Product Owner**
-
-- **Role**: The Product Owner is responsible for defining the features and functionalities of the product. They prioritize requirements and manage the product backlog.
-- **Responsibilities**:
-  - Define and prioritize product features and requirements.
-  - Ensure that the project meets user needs and expectations.
-  - Act as the bridge between stakeholders and the development team.
-- **Expectations**:
-  - Clear and well-prioritized product roadmap.
-  - Regular communication with the development team to clarify requirements.
-  - Customer satisfaction and meeting market demands.
-
-### 5. **End Users**
-
-- **Role**: End Users are the individuals who will directly interact with the product once it is delivered. Their feedback is crucial for defining user requirements and guiding the development process.
-- **Responsibilities**:
-  - Provide feedback on product features and usability.
-  - Participate in user testing and feedback sessions.
-- **Expectations**:
-  - An intuitive and user-friendly product.
-  - Features that meet their needs and solve their problems.
-  - Regular updates on the progress of the project.
-
-### 6. **Marketing Team**
-
-- **Role**: The Marketing Team is responsible for promoting the product to potential users, stakeholders, and the public. They create the product’s go-to-market strategy.
-- **Responsibilities**:
-  - Develop and execute marketing campaigns.
-  - Conduct market research and competitor analysis.
-  - Coordinate product launches and user engagement strategies.
-- **Expectations**:
-  - Alignment of product messaging with market demands.
-  - Support for the product’s growth and adoption.
-  - Clear communication with the development team regarding features and timelines.
-
-### 7. **Customer Support Team**
-
-- **Role**: The Customer Support Team handles inquiries, troubleshooting, and customer feedback once the product is live. They play a key role in ensuring the product meets user needs.
-- **Responsibilities**:
-  - Provide ongoing support to end users.
-  - Document frequently asked questions and issues.
-  - Relay user feedback to the development team for future improvements.
-- **Expectations**:
-  - Efficient resolution of customer issues.
-  - High user satisfaction post-launch.
-  - Clear communication with the product team about common pain points.
+| **Stakeholder**           | **Role**                                                                                  | **Responsibilities**                                                                                                                                                   | **Expectations**                                                                                                                                |
+| ------------------------------- | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Project Sponsor**       | O Project Sponsor é o principal tomador de decisões e autoridade de financiamento do projeto. | - Aprovar orçamento e escopo.  - Tomar decisões-chave.  - Resolver riscos e problemas de alto nível.                                                                      | - Entrega pontual do projeto dentro do orçamento.  - Alinhamento com os objetivos estratégicos.  - Comunicação clara sobre progresso e riscos.    |
+| **Project Manager**       | O Project Manager supervisiona as operações diárias do projeto, gerencia recursos e prazos.  | - Planejar, executar e monitorar o progresso.  - Coordenar as atividades e recursos.  - Gerenciar riscos e problemas.                                                        | - Conclusão bem-sucedida do projeto dentro dos parâmetros.  - Atualizações regulares para os stakeholders.  - Gestão eficaz da equipe.           |
+| **Development Team**      | A Development Team desenvolve, testa e implementa a solução.                                  | - Desenvolver software conforme especificações.  - Realizar testes.  - Participar de reuniões de projeto.                                                                 | - Código de alta qualidade.  - Entrega pontual das funcionalidades.  - Participação ativa nas discussões e soluções.                            |
+| **Product Owner**         | O Product Owner define as funcionalidades do produto e prioriza os requisitos.                  | - Definir e priorizar funcionalidades.  - Garantir que o produto atenda às necessidades dos usuários.  - Comunicar-se entre os stakeholders e a equipe de desenvolvimento. | - Roteiro claro e priorizado.  - Comunicação regular com a equipe.  - Satisfação do cliente e demanda de mercado atendida.                        |
+| **End Users**             | Os End Users são os usuários finais que interagem diretamente com o produto.                  | - Fornecer feedback sobre funcionalidades e usabilidade.  - Participar de testes e feedback.                                                                                 | - Produto intuitivo e fácil de usar.  - Funcionalidades que atendem às suas necessidades.  - Atualizações regulares sobre o progresso do projeto. |
+| **Marketing Team**        | O Marketing Team promove o produto e cria a estratégia de lançamento.                         | - Desenvolver e executar campanhas de marketing.  - Realizar pesquisa de mercado.  - Coordenar o lançamento e o engajamento dos usuários.                                  | - Alinhamento com as demandas do mercado.  - Apoio ao crescimento do produto.  - Comunicação clara sobre características e prazos.                 |
+| **Customer Support Team** | O Customer Support Team resolve dúvidas e problemas após o lançamento do produto.            | - Oferecer suporte contínuo aos usuários.  - Documentar problemas frequentes.  - Relatar feedback para melhorias.                                                          | - Resolução eficiente de problemas.  - Alta satisfação pós-lançamento.  - Comunicação clara com a equipe de produto.                          |
 
 ## Stakeholder Engagement Strategy
 
-Effective stakeholder management is vital for the success of the project. The following strategies will be used to ensure alignment with all stakeholders:
+A gestão eficaz dos stakeholders é vital para o sucesso do projeto. As seguintes estratégias serão adotadas para garantir o alinhamento com todos os stakeholders:
 
-- **Regular Communication**: Maintain consistent communication through weekly or bi-weekly status reports, meetings, and updates.
-- **Stakeholder Meetings**: Organize regular meetings to gather feedback, review progress, and address any concerns.
-- **Feedback Loops**: Establish formal and informal feedback channels to gather input from stakeholders, particularly end users and the product owner.
-- **Conflict Resolution**: Proactively address any conflicts or misalignments between stakeholders by facilitating transparent discussions and finding common ground.
+| **Strategy**                   | **Description**                                                                                                                                  |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Comunicação Regular**      | Manter comunicação consistente por meio de relatórios de status semanais ou quinzenais, reuniões e atualizações.                                 |
+| **Reuniões com Stakeholders** | Organizar reuniões regulares para coletar feedback, revisar o progresso e abordar qualquer preocupação.                                             |
+| **Canais de Feedback**         | Estabelecer canais formais e informais de feedback para coletar informações dos stakeholders, especialmente dos usuários finais e do Product Owner. |
+| **Resolução de Conflitos**   | Abordar proativamente quaisquer conflitos ou desalinhamentos entre stakeholders, facilitando discussões transparentes e encontrando um terreno comum. |
 
-[← Voltar para a Página Principal](../index.md)
+---
+
+# Revision History
+
+| Date       | Version | Changes                           | Authors |
+| ---------- | ------- | --------------------------------- | ------- |
+| 02/04/2024 | 0.1     | Document creation                 |         |
+| 06/04/2024 | 0.2     | Topics 1.1, 1.2, 1.3, and 3       |         |
+| 16/04/2024 | 0.3     | Documentation on Git Pages        |         |
+| 09/09/2024 | 0.4     | Updated technologies and app type |         |
+| 09/09/2024 | 0.5     | Technology adjustments            |         |
+
+[← Back to Main Page](../index.md)
