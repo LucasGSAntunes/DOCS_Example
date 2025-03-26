@@ -1,6 +1,6 @@
 # Stakeholders
 
-[← Back to Main Page](../../index.md)
+[← Back to Main Page](../index.md)
 
 ## Overview
 
@@ -41,4 +41,4 @@ A gestão eficaz dos stakeholders é vital para o sucesso do projeto. As seguint
 | 09/09/2024 | 0.4     | Updated technologies and app type |         |
 | 09/09/2024 | 0.5     | Technology adjustments            |         |
 
-[← Back to Main Page](../../index.md)
+[← Back to Main Page](../index.md)

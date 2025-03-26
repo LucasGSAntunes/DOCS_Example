@@ -1,6 +1,6 @@
 # **References**
 
-[← Back to Main Page](../../index.md)
+[← Back to Main Page](index.md)
 
 1. **Leffingwell, D., Widrig, D.**, *Managing Software Requirements: A Use Case Approach*, 2nd Edition, Addison-Wesley, 2003.
 2. **Cockburn, A.**, *Escrevendo Casos de Uso Eficazes: Um Guia Prático para Desenvolvedores de Software*, 1st Edition, Bookman Companhia, 2005.
@@ -19,4 +19,4 @@
 | 09/09/2024 | 0.4     | Updated technologies and app type |         |
 | 09/09/2024 | 0.5     | Technology adjustments            |         |
 
-[← Back to Main Page](../../index.md)
+[← Back to Main Page](index.md)
