@@ -5,11 +5,23 @@
 
 ---
 
-## 1. Kickoff Meeting (Project Start)
+## **Meeting Notes**
 
-- **Date:** 03/10/2025
-- **Participants:** Development Team, Product Owner, Designer, Stakeholders
-- **Objective:** Align expectations and define the initial project scope.
+| **Meeting**               | **Date** | **Participants**                                  | **Objective**                                                    |
+| ------------------------------- | -------------- | ------------------------------------------------------- | ---------------------------------------------------------------------- |
+| **1. Kickoff Meeting**    | 03/10/2025     | Development Team, Product Owner, Designer, Stakeholders | Align expectations and define the initial project scope.               |
+| **2. Sprint 1 Planning**  | 03/15/2025     | Development Team, Product Owner                         | Plan the tasks for the first sprint.                                   |
+| **3. Sprint 1 Follow-up** | 03/20/2025     | Development Team, Product Owner, Designer               | Review sprint progress, discuss challenges, and necessary adjustments. |
+| **4. Sprint 1 Review**    | 03/25/2025     | Development Team, Product Owner, Stakeholders           | Present implemented features, gather feedback, and define next steps.  |
+| **5. Sprint 2 Planning**  | 03/30/2025     | Development Team, Product Owner                         | Plan the tasks for the second sprint.                                  |
+| **6. Sprint 2 Follow-up** | 04/05/2025     | Development Team, Product Owner                         | Track progress on features and resolve issues.                         |
+
+---
+
+## **Kickoff Meeting (Project Start)**
+
+* **Date:** 03/10/2025
+* **Objective:** Align expectations and define the initial project scope.
 
 ### Topics Discussed:
 
@@ -29,11 +41,10 @@
 
 ---
 
-## 2. Sprint 1 Planning Meeting
+## **Sprint 1 Planning Meeting**
 
-- **Date:** 03/15/2025
-- **Participants:** Development Team, Product Owner
-- **Objective:** Plan the tasks for the first sprint.
+* **Date:** 03/15/2025
+* **Objective:** Plan the tasks for the first sprint.
 
 ### Topics Discussed:
 
@@ -52,11 +63,10 @@
 
 ---
 
-## 3. Sprint 1 Follow-up Meeting
+## **Sprint 1 Follow-up Meeting**
 
-- **Date:** 03/20/2025
-- **Participants:** Development Team, Product Owner, Designer
-- **Objective:** Review sprint progress, discuss challenges, and necessary adjustments.
+* **Date:** 03/20/2025
+* **Objective:** Review sprint progress, discuss challenges, and necessary adjustments.
 
 ### Topics Discussed:
 
@@ -76,11 +86,10 @@
 
 ---
 
-## 4. Sprint 1 Review Meeting
+## **Sprint 1 Review Meeting**
 
-- **Date:** 03/25/2025
-- **Participants:** Development Team, Product Owner, Stakeholders
-- **Objective:** Present the implemented features, gather feedback, and define next steps.
+* **Date:** 03/25/2025
+* **Objective:** Present implemented features, gather feedback, and define next steps.
 
 ### Topics Discussed:
 
@@ -99,11 +108,10 @@
 
 ---
 
-## 5. Sprint 2 Planning Meeting
+## **Sprint 2 Planning Meeting**
 
-- **Date:** 03/30/2025
-- **Participants:** Development Team, Product Owner
-- **Objective:** Plan the tasks for the second sprint.
+* **Date:** 03/30/2025
+* **Objective:** Plan the tasks for the second sprint.
 
 ### Topics Discussed:
 
@@ -123,11 +131,10 @@
 
 ---
 
-## 6. Sprint 2 Follow-up Meeting
+## **Sprint 2 Follow-up Meeting**
 
-- **Date:** 04/05/2025
-- **Participants:** Development Team, Product Owner
-- **Objective:** Track progress on features and resolve issues.
+* **Date:** 04/05/2025
+* **Objective:** Track progress on features and resolve issues.
 
 ### Topics Discussed:
 
@@ -146,7 +153,7 @@
 
 ---
 
-## Revision History
+## **Revision History**
 
 | Date       | Version | Changes                           | Authors |
 | ---------- | ------- | --------------------------------- | ------- |

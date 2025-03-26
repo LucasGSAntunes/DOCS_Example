@@ -1,5 +1,5 @@
 
-### **Deliverables - Content and User Management Project**
+### **Deliverables**
 
 [← Back to Main Page](../../index.md)
 
