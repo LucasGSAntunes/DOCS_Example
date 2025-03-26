@@ -1,58 +1,59 @@
-### **Lições Aprendidas - Projeto de Gestão de Conteúdos e Usuários**
 
-[← Voltar para a Página Principal](../../index.md)
+### **Lessons Learned - Content and User Management Project**
 
-#### **1. Importância de Definir Claramente os Requisitos**
+[← Back to Main Page](../../index.md)
 
-- **Lição:** Durante as fases iniciais do projeto, tivemos dificuldades em definir claramente todos os requisitos do sistema. Alguns usuários e stakeholders não estavam completamente cientes das funcionalidades necessárias, o que levou a mudanças frequentes nas prioridades e escopo.
-- **Ação:** A definição clara e precisa dos requisitos é essencial para a execução bem-sucedida do projeto. Investir tempo na documentação detalhada e envolvimento dos stakeholders logo no início pode minimizar alterações ao longo do ciclo de vida do projeto.
-- **Resultado:** As mudanças constantes no escopo causaram retrabalho e atrasos. Uma análise mais profunda no início poderia ter economizado tempo e recursos.
+#### **1. Importance of Defining Requirements Clearly**
 
-#### **2. A Importância de Testes Automatizados**
+* **Lesson:** During the initial stages of the project, we had difficulties in clearly defining all the system requirements. Some users and stakeholders were not fully aware of the necessary functionalities, which led to frequent changes in priorities and scope.
+* **Action:** Clearly and precisely defining the requirements is essential for the successful execution of the project. Investing time in detailed documentation and early stakeholder involvement can minimize changes throughout the project lifecycle.
+* **Result:** Constant scope changes caused rework and delays. A deeper analysis at the beginning could have saved time and resources.
 
-- **Lição:** Inicialmente, não priorizamos os testes automatizados, o que resultou em falhas nos testes manuais em algumas versões do sistema. Isso impactou diretamente a qualidade do código e gerou falhas inesperadas em ambientes de produção.
-- **Ação:** A adoção de testes automatizados foi uma mudança positiva que melhorou a confiabilidade e a manutenção do sistema.
-- **Resultado:** Implementar testes automatizados desde o início garante que alterações não quebrem funcionalidades existentes, economizando tempo a longo prazo.
+#### **2. The Importance of Automated Testing**
 
-#### **3. Gestão de Dependências e Atualizações**
+* **Lesson:** Initially, we did not prioritize automated testing, which led to failures in manual tests in some versions of the system. This directly impacted code quality and generated unexpected failures in production environments.
+* **Action:** The adoption of automated testing was a positive change that improved the reliability and maintenance of the system.
+* **Result:** Implementing automated tests from the start ensures that changes do not break existing functionality, saving time in the long run.
 
-- **Lição:** Durante o desenvolvimento, encontramos dificuldades em gerenciar dependências externas, especialmente em relação a pacotes e bibliotecas que exigiam versões específicas. A falta de controle sobre essas versões causou incompatibilidades em algumas versões do sistema.
-- **Ação:** Utilizar ferramentas de controle de versões como `npm` para garantir que todas as dependências sejam compatíveis e devidamente documentadas.
-- **Resultado:** Ao estabelecer um processo claro de controle de dependências e versões, conseguimos evitar problemas de compatibilidade e garantir estabilidade.
+#### **3. Dependency and Update Management**
 
-#### **4. Comunicação entre a Equipe e Stakeholders**
+* **Lesson:** During development, we encountered difficulties in managing external dependencies, especially with packages and libraries that required specific versions. Lack of control over these versions caused incompatibilities in some system versions.
+* **Action:** Using version control tools like `npm` to ensure that all dependencies are compatible and well-documented.
+* **Result:** By establishing a clear process for managing dependencies and versions, we avoided compatibility issues and ensured stability.
 
-- **Lição:** Em determinados momentos do projeto, a comunicação entre a equipe de desenvolvimento e os stakeholders foi ineficiente. Isso resultou em falta de alinhamento sobre as funcionalidades entregues e atrasos na revisão de entregas.
-- **Ação:** Estabelecemos reuniões regulares de feedback com stakeholders para revisar o progresso e garantir que todos os envolvidos estavam alinhados quanto aos objetivos do projeto.
-- **Resultado:** Melhorou a transparência e ajudou a garantir que as expectativas de todos estivessem alinhadas. Além disso, a equipe de desenvolvimento pôde ajustar suas prioridades de acordo com o feedback contínuo.
+#### **4. Communication Between Team and Stakeholders**
 
-#### **5. O Valor de Documentação Adequada**
+* **Lesson:** At certain points in the project, communication between the development team and stakeholders was inefficient. This resulted in misalignment on the delivered features and delays in the review of deliverables.
+* **Action:** We established regular feedback meetings with stakeholders to review progress and ensure everyone involved was aligned on the project goals.
+* **Result:** This improved transparency and helped ensure all expectations were aligned. Additionally, the development team was able to adjust priorities according to continuous feedback.
 
-- **Lição:** Durante o desenvolvimento, a documentação foi negligenciada em algumas etapas, o que causou confusão e dificuldades durante a implantação e manutenção do sistema.
-- **Ação:** Decidimos documentar adequadamente cada etapa do processo de desenvolvimento, incluindo arquitetura do sistema, fluxos de trabalho, e detalhes de API.
-- **Resultado:** A documentação completa e bem organizada fez com que a implantação e futuras atualizações no sistema fossem mais rápidas e menos propensas a erros. Também facilitou o treinamento de novos membros da equipe.
+#### **5. The Value of Adequate Documentation**
 
-#### **6. Planejamento de Escalabilidade**
+* **Lesson:** During development, documentation was neglected in some stages, which caused confusion and difficulties during deployment and system maintenance.
+* **Action:** We decided to properly document each step of the development process, including system architecture, workflows, and API details.
+* **Result:** Complete and well-organized documentation made deployment and future updates faster and less prone to errors. It also facilitated the training of new team members.
 
-- **Lição:** Inicialmente, não focamos o suficiente em planejamento de escalabilidade do sistema, o que gerou desafios ao tentar expandir o sistema conforme a base de usuários crescia.
-- **Ação:** Durante o desenvolvimento, implementamos melhores práticas de escalabilidade desde o início, como uso de microservices e balanceamento de carga.
-- **Resultado:** A escalabilidade do sistema melhorou significativamente, permitindo que ele suportasse um aumento no número de usuários e dados sem comprometer o desempenho.
+#### **6. Scalability Planning**
 
-#### **7. A Importância da Integração Contínua e Deploy Automatizado**
+* **Lesson:** Initially, we did not focus enough on scalability planning, which caused challenges when trying to expand the system as the user base grew.
+* **Action:** During development, we implemented better scalability practices from the start, such as the use of microservices and load balancing.
+* **Result:** The system's scalability significantly improved, allowing it to support an increase in users and data without compromising performance.
 
-- **Lição:** A integração contínua e a entrega automatizada não foram implementadas desde o início, o que causou atrasos na entrega de versões e dificultou a identificação de erros rapidamente.
-- **Ação:** Implementamos pipelines de CI/CD para integrar o código com mais frequência e automatizar o deploy de novas versões do sistema.
-- **Resultado:** A integração contínua e a entrega automatizada reduziram significativamente os erros em produção e melhoraram a eficiência do time de desenvolvimento.
+#### **7. The Importance of Continuous Integration and Automated Deployment**
 
-#### **8. Desafios com a Gestão de Assinaturas e Processamento de Pagamentos**
+* **Lesson:** Continuous integration and automated deployment were not implemented from the beginning, which caused delays in version delivery and made it difficult to quickly identify errors.
+* **Action:** We implemented CI/CD pipelines to integrate code more frequently and automate the deployment of new versions of the system.
+* **Result:** Continuous integration and automated delivery significantly reduced errors in production and improved the efficiency of the development team.
 
-- **Lição:** Houve uma complexidade maior do que o esperado na implementação de pagamentos e gerenciamento de assinaturas, devido à integração com provedores externos de pagamentos e diferentes planos de assinatura.
-- **Ação:** Realizamos uma análise detalhada e uma escolha mais cuidadosa do provedor de pagamento, além de implementar testes de carga e simulações de pagamento para garantir uma experiência sem falhas.
-- **Resultado:** O gerenciamento de pagamentos e assinaturas foi muito mais eficiente e estável após essas mudanças, melhorando a experiência do usuário e a confiabilidade do sistema
+#### **8. Challenges with Subscription Management and Payment Processing**
 
+* **Lesson:** There was more complexity than expected in implementing payments and subscription management due to integration with external payment providers and different subscription plans.
+* **Action:** We conducted detailed analysis and a more careful selection of the payment provider, in addition to implementing load testing and payment simulations to ensure a flawless experience.
+* **Result:** Payment and subscription management became much more efficient and stable after these changes, improving the user experience and system reliability.
 
+---
 
-# Revision History
+### **Revision History**
 
 | Date       | Version | Changes                           | Authors |
 | ---------- | ------- | --------------------------------- | ------- |
@@ -62,4 +63,4 @@
 | 09/09/2024 | 0.4     | Updated technologies and app type |         |
 | 09/09/2024 | 0.5     | Technology adjustments            |         |
 
-[← Voltar para a Página Principal](../../index.md)
+[← Back to Main Page](../../index.md)

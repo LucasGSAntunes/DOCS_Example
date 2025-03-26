@@ -1,6 +1,6 @@
-# 🛠 Product Overview
+# Product Overview
 
-[← Voltar para a Página Principal](../../index.md)
+[← Back to Main Page](../../index.md)
 
 ## Product Description
 
@@ -10,60 +10,48 @@ It is developed with modern technologies to provide high scalability, security, 
 
 ## Core Features
 
-- **Feature 1**: [Brief description of Feature 1]. This feature allows users to [explain the value and function of the feature].
-- **Feature 2**: [Brief description of Feature 2]. With this feature, users can [explain the benefit and how it solves a problem].
-- **Feature 3**: [Brief description of Feature 3]. This feature enables users to [describe the problem it addresses and how it enhances user experience].
-- **Feature 4**: [Brief description of Feature 4]. Aiming at [target audience], it helps users [explain what the feature achieves].
+| Feature Name        | Description                      | Benefit/Value                                                                                          |
+| ------------------- | -------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Feature 1** | [Brief description of Feature 1] | This feature allows users to [explain the value and function of the feature].                          |
+| **Feature 2** | [Brief description of Feature 2] | With this feature, users can [explain the benefit and how it solves a problem].                        |
+| **Feature 3** | [Brief description of Feature 3] | This feature enables users to [describe the problem it addresses and how it enhances user experience]. |
+| **Feature 4** | [Brief description of Feature 4] | Aiming at [target audience], it helps users [explain what the feature achieves].                       |
 
 ## Target Audience
 
 [Product Name] is primarily aimed at:
 
-- **Small and Medium Businesses (SMBs)**: For businesses seeking an affordable yet powerful solution to [describe problem the product solves].
-- **Enterprises**: Designed to scale with enterprises, offering [features] to help streamline operations and improve performance.
-- **Freelancers and Individuals**: Perfect for individuals needing a [describe product use case] without the complexity of traditional enterprise solutions.
+| Target Group                                 | Description                                                                                                               |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| **Small and Medium Businesses (SMBs)** | For businesses seeking an affordable yet powerful solution to [describe problem the product solves].                      |
+| **Enterprises**                        | Designed to scale with enterprises, offering [features] to help streamline operations and improve performance.            |
+| **Freelancers and Individuals**        | Perfect for individuals needing a [describe product use case] without the complexity of traditional enterprise solutions. |
 
 ## Benefits
 
-- **Scalability**: Our product is designed to grow with your business. Whether you're a startup or an enterprise, [Product Name] can scale to meet your needs without compromising performance.
-- **User-friendly Interface**: The intuitive design makes it easy for both technical and non-technical users to navigate the platform and get started right away.
-- **Security**: Built with the latest security protocols, [Product Name] ensures that your data is protected with end-to-end encryption and regular security updates.
-- **Customization**: The product offers flexible configurations, allowing users to tailor the platform to their specific requirements.
+| Benefit                           | Description                                                                                                                                                                  |
+| --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Scalability**             | Our product is designed to grow with your business. Whether you're a startup or an enterprise, [Product Name] can scale to meet your needs without compromising performance. |
+| **User-friendly Interface** | The intuitive design makes it easy for both technical and non-technical users to navigate the platform and get started right away.                                           |
+| **Security**                | Built with the latest security protocols, [Product Name] ensures that your data is protected with end-to-end encryption and regular security updates.                        |
+| **Customization**           | The product offers flexible configurations, allowing users to tailor the platform to their specific requirements.                                                            |
 
 ## Technical Specifications
 
-- **Platform**: Web-based application (with mobile app available on iOS/Android).
-- **Technology Stack**:
-
-  - Frontend: [Frontend technologies used, e.g., React, Vue.js]
-  - Backend: [Backend technologies used, e.g., Node.js, Python]
-  - Database: [Database technologies, e.g., PostgreSQL, MongoDB]
-  - Hosting: [Hosting provider or architecture, e.g., AWS, Google Cloud]
-- **Supported Devices**: Desktop (Windows, macOS), Mobile (iOS, Android)
+| Attribute                   | Details                                                                                                                                                                                                                                                                             |
+| --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Platform**          | Web-based application (with mobile app available on iOS/Android).                                                                                                                                                                                                                   |
+| **Technology Stack**  | Frontend: [Frontend technologies used, e.g., React, Vue.js]`<br>` Backend: [Backend technologies used, e.g., Node.js, Python] `<br>` Database: [Database technologies, e.g., PostgreSQL, MongoDB] `<br>` Hosting: [Hosting provider or architecture, e.g., AWS, Google Cloud] |
+| **Supported Devices** | Desktop (Windows, macOS), Mobile (iOS, Android)                                                                                                                                                                                                                                     |
 
 ## Product Roadmap
 
-### **Q1 - Initial Launch**
-
-- Full-feature release.
-- User onboarding and initial feedback collection.
-
-### **Q2 - Feature Expansion**
-
-- Enhanced reporting and analytics.
-- Mobile app improvements.
-
-### **Q3 - Integration & Automation**
-
-- API integrations with popular platforms.
-- Workflow automation and advanced user settings.
-
-### **Q4 - Enterprise Features**
-
-- Enterprise-level scalability.
-- Additional security features and compliance updates.
-
-
+| Quarter      | Milestones                                                                                                                 |
+| ------------ | -------------------------------------------------------------------------------------------------------------------------- |
+| **Q1** | Initial Launch: Full-feature release.`<br>` User onboarding and initial feedback collection.                             |
+| **Q2** | Feature Expansion: Enhanced reporting and analytics.`<br>` Mobile app improvements.                                      |
+| **Q3** | Integration & Automation: API integrations with popular platforms.`<br>` Workflow automation and advanced user settings. |
+| **Q4** | Enterprise Features: Enterprise-level scalability.`<br>` Additional security features and compliance updates.            |
 
 # Revision History
 
@@ -75,4 +63,4 @@ It is developed with modern technologies to provide high scalability, security, 
 | 09/09/2024 | 0.4     | Updated technologies and app type |         |
 | 09/09/2024 | 0.5     | Technology adjustments            |         |
 
-[← Voltar para a Página Principal](../../index.md)
+[← Back to Main Page](../../index.md)

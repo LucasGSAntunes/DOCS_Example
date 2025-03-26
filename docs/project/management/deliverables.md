@@ -1,123 +1,30 @@
-### **Deliverables - Projeto de Gestão de Conteúdos e Usuários**
 
-[← Voltar para a Página Principal](../../index.md)
+### **Deliverables - Content and User Management Project**
 
-#### **1. Registro de Médicos e Administradores**
+[← Back to Main Page](../../index.md)
 
-- **Descrição:** Funcionalidade que permite o registro de médicos e administradores no sistema.
-- **Tarefa associada:** Implementação da funcionalidade de criação de usuários com validações.
-- **Data de Entrega:** 18/03/2025
-- **Formato:** Código-fonte, testes de integração, documentação de API.
-- **Critérios de Aceitação:**
-  - Usuário pode ser registrado com sucesso.
-  - Validações de dados como CPF, e-mail, e senha.
-  - Testes unitários cobrem o fluxo de registro.
+| Deliverable                                     | Description                                                                  | Associated Task                                                   | Delivery Date | Format                                                  | Acceptance Criteria                                                                                               |
+| ----------------------------------------------- | ---------------------------------------------------------------------------- | ----------------------------------------------------------------- | ------------- | ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| **Doctor and Administrator Registration** | Allows registration of doctors and administrators in the system.             | Implementation of user creation functionality with validations.   | 18/03/2025    | Source code, integration tests, API documentation.      | User can register successfully. Validations for CPF, email, and password. Unit tests cover the registration flow. |
+| **Login Functionality**                   | Allows doctors and administrators to access their areas in the system.       | Implementation of user authentication.                            | 20/03/2025    | Source code, integration tests, API documentation.      | Successful login with authentication token. Error messages for failures. Security tests against attacks.          |
+| **Profile Edit and Deletion**             | Allows editing of profile data, such as password and contact information.    | Development of the profile editing interface and routes.          | 25/03/2025    | Source code, interface prototypes, functionality tests. | User can update their information. Data validation. Notification to user upon update.                             |
+| **Document Creation and Listing**         | Allows administrators to create and list existing documents.                 | Development of the document administration interface.             | 30/03/2025    | Source code, interface prototypes, tests.               | Administrator can create document. Document appears in the listing. Filters working in the interface.             |
+| **Notification System**                   | Sends notifications to doctors about events or updates.                      | Implementation of the notification system.                        | 05/04/2025    | Source code, integration documentation.                 | Automatic notifications based on events. Tests ensure message consistency.                                        |
+| **Subscription Management**               | Allows doctors to manage subscriptions and payment plans.                    | Creation of financial panel and integration with payment gateway. | 10/04/2025    | Source code, integration tests, API documentation.      | Doctor can view and modify plan. Correct integration with the payment gateway.                                    |
+| **Documented API**                        | Documentation of the system's API.                                           | Create complete API documentation.                                | 12/04/2025    | Markdown or Swagger document.                           | Complete documentation with examples. Publicly available.                                                         |
+| **Automated Tests**                       | Automated tests to ensure system quality.                                    | Implementation of unit, integration, and interface tests.         | 15/04/2025    | Test scripts, coverage reports.                         | Coverage of at least 80%. Tests run in CI/CD environment.                                                         |
+| **Deployment Document**                   | System deployment guide, including server setup, database, and dependencies. | Create deployment documentation.                                  | 20/04/2025    | Markdown or PDF document.                               | Complete deployment guide with no errors. Tested in production environment.                                       |
 
-#### **2. Funcionalidade de Login para Médicos e Administradores**
+---
 
-- **Descrição:** Funcionalidade de login que permite aos médicos e administradores acessarem suas respectivas áreas no sistema.
-- **Tarefa associada:** Implementação da autenticação de usuários.
-- **Data de Entrega:** 20/03/2025
-- **Formato:** Código-fonte, testes de integração, documentação de API.
-- **Critérios de Aceitação:**
-  - Login bem-sucedido com token de autenticação.
-  - Mensagens de erro em caso de falhas de autenticação.
-  - Testes de segurança implementados para prevenir ataques como SQL Injection.
+### **Revision History**
 
-#### **3. Edição e Exclusão de Perfil de Usuário**
+| Date       | Version | Changes                             | Author |
+| ---------- | ------- | ----------------------------------- | ------ |
+| 02/04/2024 | 0.1     | Document creation                   |        |
+| 06/04/2024 | 0.2     | Added detailed requirements         |        |
+| 16/04/2024 | 0.3     | Adjustments to format and structure |        |
+| 09/09/2024 | 0.4     | Updated delivery dates              |        |
+| 09/09/2024 | 0.5     | Review of acceptance criteria       |        |
 
-- **Descrição:** Funcionalidade que permite aos usuários editarem seus dados de perfil, como senha e informações de contato.
-- **Tarefa associada:** Desenvolvimento da interface e das rotas de edição de perfil.
-- **Data de Entrega:** 25/03/2025
-- **Formato:** Código-fonte, protótipos de interface, testes de funcionalidade.
-- **Critérios de Aceitação:**
-  - Usuário pode atualizar suas informações.
-  - Validação de dados (exemplo: senha deve seguir critérios de segurança).
-  - Notificação ao usuário quando as informações forem atualizadas com sucesso.
-
-#### **4. Criação e Listagem de Documentos**
-
-- **Descrição:** Funcionalidade que permite aos administradores criar novos documentos e listar os documentos existentes.
-- **Tarefa associada:** Desenvolvimento da interface de administração de documentos.
-- **Data de Entrega:** 30/03/2025
-- **Formato:** Código-fonte, protótipos de interface, testes de funcionalidade.
-- **Critérios de Aceitação:**
-  - Administrador pode criar um novo documento.
-  - Documento criado deve aparecer na listagem de documentos.
-  - Interface de listagem de documentos funciona corretamente com filtros.
-
-#### **5. Sistema de Notificações**
-
-- **Descrição:** Sistema para enviar notificações para médicos sobre eventos ou atualizações importantes.
-- **Tarefa associada:** Implementação de um sistema de notificações em tempo real ou por e-mail.
-- **Data de Entrega:** 05/04/2025
-- **Formato:** Código-fonte, documentação de integração com sistema de notificações.
-- **Critérios de Aceitação:**
-  - Notificações devem ser enviadas automaticamente com base em eventos predefinidos.
-  - O sistema de notificações deve ser testado para garantir que os médicos recebam as mensagens de forma consistente.
-
-#### **6. Gerenciamento de Assinaturas**
-
-- **Descrição:** Funcionalidade que permite aos médicos gerenciarem suas assinaturas e planos de pagamento.
-- **Tarefa associada:** Criação de um painel financeiro para médicos e integração com sistema de pagamento.
-- **Data de Entrega:** 10/04/2025
-- **Formato:** Código-fonte, testes de integração com gateway de pagamento, documentação de API.
-- **Critérios de Aceitação:**
-  - Médico pode visualizar seus planos de assinatura.
-  - Médico pode alterar seu plano de assinatura.
-  - O sistema integra corretamente com o gateway de pagamento para cobrança.
-
-#### **7. API Documentada**
-
-- **Descrição:** Documentação da API do sistema, descrevendo todas as rotas e como usá-las.
-- **Tarefa associada:** Criar a documentação completa da API.
-- **Data de Entrega:** 12/04/2025
-- **Formato:** Documento de API em formato Markdown ou Swagger.
-- **Critérios de Aceitação:**
-  - A documentação está completa e inclui exemplos de uso de todas as rotas da API.
-  - A documentação está disponível publicamente e pode ser consultada facilmente.
-
-#### **8. Testes Automatizados**
-
-- **Descrição:** Conjunto de testes automatizados para garantir a qualidade do sistema.
-- **Tarefa associada:** Implementação de testes unitários, de integração e de interface.
-- **Data de Entrega:** 15/04/2025
-- **Formato:** Scripts de testes, relatórios de cobertura de testes.
-- **Critérios de Aceitação:**
-  - Todos os principais fluxos do sistema têm testes automatizados.
-  - A cobertura de testes atinge pelo menos 80%.
-  - Os testes são executados com sucesso em um ambiente de integração contínua.
-
-#### **9. Documento de Implantação**
-
-- **Descrição:** Guia completo de implantação do sistema, incluindo configurações de servidor, banco de dados e dependências.
-- **Tarefa associada:** Criação do documento para implantação e operação do sistema.
-- **Data de Entrega:** 20/04/2025
-- **Formato:** Documento em PDF ou Wiki.
-- **Critérios de Aceitação:**
-  - A documentação inclui todas as etapas de implantação.
-  - O processo de implantação é claro e fácil de seguir.
-
-#### **10. Relatório Final de Projeto**
-
-- **Descrição:** Relatório final com todas as informações sobre o desenvolvimento do projeto, desafios enfrentados, soluções aplicadas e resultados alcançados.
-- **Tarefa associada:** Compilação do relatório de conclusão do projeto.
-- **Data de Entrega:** 25/04/2025
-- **Formato:** Documento em PDF.
-- **Critérios de Aceitação:**
-  - O relatório está completo e cobre todos os aspectos do projeto.
-  - A documentação está clara e bem estruturada, com gráficos e análises quando necessário.
-
-
-
-# Revision History
-
-| Date       | Version | Changes                           | Authors |
-| ---------- | ------- | --------------------------------- | ------- |
-| 02/04/2024 | 0.1     | Document creation                 |         |
-| 06/04/2024 | 0.2     | Topics 1.1, 1.2, 1.3, and 3       |         |
-| 16/04/2024 | 0.3     | Documentation on Git Pages        |         |
-| 09/09/2024 | 0.4     | Updated technologies and app type |         |
-| 09/09/2024 | 0.5     | Technology adjustments            |         |
-
-[← Voltar para a Página Principal](../../index.md)
+[← Back to Main Page](../../index.md)

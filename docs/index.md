@@ -1,4 +1,3 @@
-
 # My Project Docs
 
 Welcome to the **My Project Docs** documentation! Here, you will find all the essential information about the project, from an overview to technical and configuration details.
@@ -39,10 +38,6 @@ Welcome to the **My Project Docs** documentation! Here, you will find all the es
 |                                 | Publishing Guide                  | [Publishing Guide](setup/publishing-guide.md)                        |
 |                                 | README                            | [README](setup/readme.md)                                            |
 | **References**            |                                   | [References](references.md)                                          |
-
----
-
-🔹 Explore the documentation and take advantage of the available resources to better understand the project! 🚀
 
 # Revision History
 

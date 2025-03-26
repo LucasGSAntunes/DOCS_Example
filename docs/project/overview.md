@@ -1,6 +1,6 @@
 # Project Overview
 
-[← Voltar para a Página Principal](../index.md)
+[← Back to Main Page](../../index.md)
 
 ## Context
 
@@ -92,8 +92,6 @@ Upon completion, the monitoring platform will offer the following benefits to IT
 | **Cost savings**                | Reduce the need for manual monitoring and improve resource utilization.         |
 | **Improved system performance** | Enable data-driven optimization and capacity planning.                          |
 
-[← Voltar para a Página Principal](../index.md)
-
 # Revision History
 
 | Date       | Version | Changes                           | Authors |
@@ -103,3 +101,5 @@ Upon completion, the monitoring platform will offer the following benefits to IT
 | 16/04/2024 | 0.3     | Documentation on Git Pages        |         |
 | 09/09/2024 | 0.4     | Updated technologies and app type |         |
 | 09/09/2024 | 0.5     | Technology adjustments            |         |
+
+[← Back to Main Page](../../index.md)

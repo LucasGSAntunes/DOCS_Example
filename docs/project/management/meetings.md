@@ -1,149 +1,152 @@
-Aqui está um exemplo de documento de **Reuniões (Meetings)**, incluindo tópicos de discussão, ações e responsabilidades, para acompanhar o progresso e a colaboração em torno do desenvolvimento do projeto.
 
-### **Meeting Notes - Projeto de Gestão de Conteúdos e Usuários**
+# Meeting Notes - Content and User Management Project
 
-[← Voltar para a Página Principal](../../index.md)
-
----
-
-#### **1. Reunião de Kickoff (Início do Projeto)**
-
-- **Data:** 10/03/2025
-- **Participantes:** Equipe de Desenvolvimento, Product Owner, Designer, Stakeholders
-- **Objetivo:** Alinhar expectativas e definir o escopo inicial do projeto.
-
-##### **Tópicos discutidos:**
-
-1. **Objetivo do Projeto:**
-   - Criar um sistema de gestão de conteúdos e usuários para médicos e administradores.
-2. **Escopo Inicial:**
-   - Foco na criação de funcionalidades para cadastro de usuários, login, e gestão de documentos.
-3. **MVP (Minimum Viable Product):**
-   - Priorização de funcionalidades como registro de médicos e administradores, login, e criação de documentos.
-
-##### **Ações e Responsabilidades:**
-
-- **Desenvolvimento:** Começar a implementação das funcionalidades de registro de usuários e login.
-- **Design:** Criar protótipos iniciais para a tela de login e dashboard.
-- **Product Owner:** Priorizar funcionalidades para a próxima sprint.
+[← Back to Main Page](../../index.md)
 
 ---
 
-#### **2. Reunião de Planejamento da Sprint 1**
+## 1. Kickoff Meeting (Project Start)
 
-- **Data:** 15/03/2025
-- **Participantes:** Equipe de Desenvolvimento, Product Owner
-- **Objetivo:** Planejar as tarefas para a primeira sprint de desenvolvimento.
+- **Date:** 03/10/2025
+- **Participants:** Development Team, Product Owner, Designer, Stakeholders
+- **Objective:** Align expectations and define the initial project scope.
 
-##### **Tópicos discutidos:**
+### Topics Discussed:
 
-1. **Backlog e Prioridades:**
-   - A equipe discutiu os itens do backlog, priorizando as funcionalidades de registro e login de usuários.
-2. **Estimativas de Tempo:**
-   - Estimativas feitas para as funcionalidades de criação de usuários e login.
-3. **Dependências:**
-   - A dependência da criação do banco de dados para suportar as funcionalidades de usuários foi destacada.
+| Topic                        | Details                                                                                          |
+| ---------------------------- | ------------------------------------------------------------------------------------------------ |
+| Project Objective            | Create a content and user management system for doctors and administrators.                      |
+| Initial Scope                | Focus on creating features for user registration, login, and document management.                |
+| MVP (Minimum Viable Product) | Prioritize features such as doctor and administrator registration, login, and document creation. |
 
-##### **Ações e Responsabilidades:**
+### Actions and Responsibilities:
 
-- **Desenvolvimento:** Iniciar a implementação da criação de usuários e da funcionalidade de login.
-- **Product Owner:** Definir critérios de aceitação para a funcionalidade de registro de médicos e administradores.
-
----
-
-#### **3. Reunião de Acompanhamento de Sprint 1**
-
-- **Data:** 20/03/2025
-- **Participantes:** Equipe de Desenvolvimento, Product Owner, Designer
-- **Objetivo:** Revisar o progresso da sprint, discutir desafios e ajustes necessários.
-
-##### **Tópicos discutidos:**
-
-1. **Progresso das Tarefas:**
-   - A equipe completou a funcionalidade de cadastro de usuários, mas a integração com o banco de dados teve atrasos.
-2. **Desafios:**
-   - Problemas com a configuração inicial do banco de dados e integração com o sistema de autenticação.
-3. **Ajustes Necessários:**
-   - A equipe decidiu priorizar a finalização do banco de dados para a próxima sprint.
-
-##### **Ações e Responsabilidades:**
-
-- **Desenvolvimento:** Ajustar a integração do sistema de autenticação com o banco de dados.
-- **Product Owner:** Atualizar o backlog para refletir a necessidade de ajustes na arquitetura de dados.
-- **Designer:** Ajudar na criação do layout das telas de login e cadastro.
+| Role          | Action                                                        |
+| ------------- | ------------------------------------------------------------- |
+| Development   | Start implementing user registration and login features.      |
+| Design        | Create initial prototypes for the login screen and dashboard. |
+| Product Owner | Prioritize features for the next sprint.                      |
 
 ---
 
-#### **4. Reunião de Revisão de Sprint 1**
+## 2. Sprint 1 Planning Meeting
 
-- **Data:** 25/03/2025
-- **Participantes:** Equipe de Desenvolvimento, Product Owner, Stakeholders
-- **Objetivo:** Apresentar as funcionalidades implementadas, obter feedback e definir os próximos passos.
+- **Date:** 03/15/2025
+- **Participants:** Development Team, Product Owner
+- **Objective:** Plan the tasks for the first sprint.
 
-##### **Tópicos discutidos:**
+### Topics Discussed:
 
-1. **Demonstração das Funcionalidades Implementadas:**
-   - A equipe demonstrou o registro de médicos e administradores, login, e a criação de documentos.
-2. **Feedback dos Stakeholders:**
-   - Os stakeholders aprovaram a interface do login, mas sugeriram melhorias na criação de documentos, incluindo a adição de uma funcionalidade de tags.
-3. **Próximos Passos:**
-   - Iniciar a implementação das funcionalidades de edição e exclusão de documentos, conforme o backlog.
+| Topic                  | Details                                                                                  |
+| ---------------------- | ---------------------------------------------------------------------------------------- |
+| Backlog and Priorities | The team discussed the backlog items, prioritizing user registration and login features. |
+| Time Estimates         | Time estimates for user creation and login features.                                     |
+| Dependencies           | The database setup dependency for supporting user features was highlighted.              |
 
-##### **Ações e Responsabilidades:**
+### Actions and Responsibilities:
 
-- **Desenvolvimento:** Iniciar a implementação das funcionalidades de edição e exclusão de documentos.
-- **Product Owner:** Priorizar a funcionalidade de tags nos documentos e ajustar o backlog conforme feedback dos stakeholders.
-
----
-
-#### **5. Reunião de Planejamento da Sprint 2**
-
-- **Data:** 30/03/2025
-- **Participantes:** Equipe de Desenvolvimento, Product Owner
-- **Objetivo:** Planejar as tarefas para a segunda sprint de desenvolvimento.
-
-##### **Tópicos discutidos:**
-
-1. **Backlog de Funcionalidades:**
-   - A equipe revisou o backlog, priorizando as funcionalidades de edição e exclusão de documentos.
-2. **Estimativas de Tempo:**
-   - Estimativas feitas para a implementação da funcionalidade de tags em documentos.
-3. **Riscos e Dependências:**
-   - A integração com o sistema de notificação será uma prioridade na próxima sprint.
-
-##### **Ações e Responsabilidades:**
-
-- **Desenvolvimento:** Iniciar a implementação de edição e exclusão de documentos.
-- **Product Owner:** Ajustar os critérios de aceitação das funcionalidades de documentos.
-- **Stakeholders:** Fornecer feedback contínuo sobre a interface do usuário.
+| Role          | Action                                                                |
+| ------------- | --------------------------------------------------------------------- |
+| Development   | Start implementing user registration and login features.              |
+| Product Owner | Define acceptance criteria for doctor and administrator registration. |
 
 ---
 
-#### **6. Reunião de Acompanhamento da Sprint 2**
+## 3. Sprint 1 Follow-up Meeting
 
-- **Data:** 05/04/2025
-- **Participantes:** Equipe de Desenvolvimento, Product Owner
-- **Objetivo:** Acompanhar o progresso das funcionalidades e resolver problemas.
+- **Date:** 03/20/2025
+- **Participants:** Development Team, Product Owner, Designer
+- **Objective:** Review sprint progress, discuss challenges, and necessary adjustments.
 
-##### **Tópicos discutidos:**
+### Topics Discussed:
 
-1. **Progresso das Funcionalidades:**
-   - As funcionalidades de edição e exclusão de documentos estão quase concluídas.
-2. **Desafios Encontrados:**
-   - A equipe encontrou um problema com a gestão de permissões para documentos.
-3. **Ajustes Necessários:**
-   - Revisão da lógica de permissões e segurança nas operações de edição e exclusão.
+| Topic                 | Details                                                                     |
+| --------------------- | --------------------------------------------------------------------------- |
+| Task Progress         | The team completed user registration but database integration was delayed.  |
+| Challenges            | Issues with database setup and authentication system integration.           |
+| Necessary Adjustments | The team decided to prioritize finalizing the database for the next sprint. |
 
-##### **Ações e Responsabilidades:**
+### Actions and Responsibilities:
 
-- **Desenvolvimento:** Corrigir os problemas de segurança e testar as novas funcionalidades.
-- **Product Owner:** Garantir que as permissões estejam corretamente configuradas para os diferentes tipos de usuário.
+| Role          | Action                                                                |
+| ------------- | --------------------------------------------------------------------- |
+| Development   | Adjust the authentication system integration with the database.       |
+| Product Owner | Update the backlog to reflect the need for architectural adjustments. |
+| Designer      | Help with the design of the login and registration screens.           |
 
 ---
 
+## 4. Sprint 1 Review Meeting
 
+- **Date:** 03/25/2025
+- **Participants:** Development Team, Product Owner, Stakeholders
+- **Objective:** Present the implemented features, gather feedback, and define next steps.
 
-# Revision History
+### Topics Discussed:
+
+| Topic                | Details                                                                                                            |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Feature Demo         | The team demonstrated doctor and administrator registration, login, and document creation.                         |
+| Stakeholder Feedback | Stakeholders approved the login interface but suggested improvements for document creation, including adding tags. |
+| Next Steps           | Start implementing editing and deleting document functionalities as per the backlog.                               |
+
+### Actions and Responsibilities:
+
+| Role          | Action                                                                                         |
+| ------------- | ---------------------------------------------------------------------------------------------- |
+| Development   | Start implementing the document editing and deletion features.                                 |
+| Product Owner | Prioritize the document tags functionality and adjust the backlog as per stakeholder feedback. |
+
+---
+
+## 5. Sprint 2 Planning Meeting
+
+- **Date:** 03/30/2025
+- **Participants:** Development Team, Product Owner
+- **Objective:** Plan the tasks for the second sprint.
+
+### Topics Discussed:
+
+| Topic                  | Details                                                                             |
+| ---------------------- | ----------------------------------------------------------------------------------- |
+| Feature Backlog        | The team reviewed the backlog, prioritizing document editing and deletion features. |
+| Time Estimates         | Time estimates for the implementation of document tags.                             |
+| Risks and Dependencies | Integration with the notification system will be a priority in the next sprint.     |
+
+### Actions and Responsibilities:
+
+| Role          | Action                                                         |
+| ------------- | -------------------------------------------------------------- |
+| Development   | Start implementing the document editing and deletion features. |
+| Product Owner | Adjust the acceptance criteria for document features.          |
+| Stakeholders  | Provide continuous feedback on the user interface.             |
+
+---
+
+## 6. Sprint 2 Follow-up Meeting
+
+- **Date:** 04/05/2025
+- **Participants:** Development Team, Product Owner
+- **Objective:** Track progress on features and resolve issues.
+
+### Topics Discussed:
+
+| Topic                 | Details                                                                       |
+| --------------------- | ----------------------------------------------------------------------------- |
+| Feature Progress      | The document editing and deletion features are almost finished.               |
+| Challenges            | Issues with document permissions management.                                  |
+| Necessary Adjustments | Review permission logic and security for document edit and delete operations. |
+
+### Actions and Responsibilities:
+
+| Role          | Action                                                                |
+| ------------- | --------------------------------------------------------------------- |
+| Development   | Fix security issues and test the new features.                        |
+| Product Owner | Ensure permissions are correctly configured for different user types. |
+
+---
+
+## Revision History
 
 | Date       | Version | Changes                           | Authors |
 | ---------- | ------- | --------------------------------- | ------- |
@@ -153,4 +156,4 @@ Aqui está um exemplo de documento de **Reuniões (Meetings)**, incluindo tópic
 | 09/09/2024 | 0.4     | Updated technologies and app type |         |
 | 09/09/2024 | 0.5     | Technology adjustments            |         |
 
-[← Voltar para a Página Principal](../../index.md)
+[← Back to Main Page](../../index.md)
