@@ -1,6 +1,7 @@
-# 🌟 Project Vision
 
-[← Voltar para a Página Principal](../../index.md)
+# Project Vision
+
+[← Back to the Main Page](../../index.md)
 
 ## Vision Statement
 
@@ -16,19 +17,22 @@ Our platform will not only shape the future of education but also democratize le
 
 ## Key Elements
 
-- **Accessibility**: The platform will ensure education is accessible to anyone, anywhere.
-- **Personalization**: AI-driven learning paths tailored to each individual's needs.
-- **Innovation**: Cutting-edge technology for adaptive learning experiences.
-- **Global Impact**: Democratizing education to provide opportunities for all.
-- **Collaboration**: Partnering with educators, content creators, and industry leaders to provide the best resources.
+| Element         | Description                                                                                      |
+| --------------- | ------------------------------------------------------------------------------------------------ |
+| Accessibility   | The platform will ensure education is accessible to anyone, anywhere.                            |
+| Personalization | AI-driven learning paths tailored to each individual's needs.                                    |
+| Innovation      | Cutting-edge technology for adaptive learning experiences.                                       |
+| Global Impact   | Democratizing education to provide opportunities for all.                                        |
+| Collaboration   | Partnering with educators, content creators, and industry leaders to provide the best resources. |
 
 ## Long-term Goals
 
-- **Become a global leader in online education**: Transform the way education is delivered worldwide.
-- **Improve learning outcomes**: Deliver personalized learning experiences that lead to real-world success.
-- **Support lifelong learning**: Provide ongoing opportunities for growth and career advancement.
-- **Foster inclusion**: Break down barriers to education and empower all learners.
-
+| Goal                                       | Description                                                                |
+| ------------------------------------------ | -------------------------------------------------------------------------- |
+| Become a global leader in online education | Transform the way education is delivered worldwide.                        |
+| Improve learning outcomes                  | Deliver personalized learning experiences that lead to real-world success. |
+| Support lifelong learning                  | Provide ongoing opportunities for growth and career advancement.           |
+| Foster inclusion                           | Break down barriers to education and empower all learners.                 |
 
 # Revision History
 
@@ -40,4 +44,4 @@ Our platform will not only shape the future of education but also democratize le
 | 09/09/2024 | 0.4     | Updated technologies and app type |         |
 | 09/09/2024 | 0.5     | Technology adjustments            |         |
 
-[← Voltar para a Página Principal](../../index.md)
+[← Back to the Main Page](../../index.md)
