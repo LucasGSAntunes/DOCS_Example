@@ -17,7 +17,8 @@ Welcome to the **My Project Docs** documentation! Here, you will find all the es
 |                                 | **Product**                 |                                                                   |
 |                                 | Product Overview                  | [Product Overview](project/product/overview.md)                      |
 |                                 | Product Backlog                   | [Product Backlog](project/product/product-backlog-building.md)       |
-|                                 | MVPs                              | [MVPs](project/product/mvp.md)                                       |
+|                                 | MVPs                              | [1-2025](project/product/mvps/mvp_2025_1.md)                         |
+|                                 |                                   |       [2-2025](project/product/mvps/mvp_2025_2.md)                                                                |
 | **Management**            | Roadmap                           | [Roadmap](project/management/roadmap.md)                             |
 |                                 | Workflow                          | [Workflow](project/management/workflow.md)                           |
 |                                 | Issue Tracking & Task Management  | [Issue Tracking](project/management/issue-tracking.md)               |
@@ -25,6 +26,7 @@ Welcome to the **My Project Docs** documentation! Here, you will find all the es
 |                                 | Meeting Minutes                   | [Meeting Minutes](project/management/meetings.md)                    |
 |                                 | Lessons Learned                   | [Lessons Learned](project/management/lessons-learned.md)             |
 | **Development Process**   | Software Development Lifecycle    | [Software Development Lifecycle](project/development/lifecycle.md)   |
+|                                 | Criteria                            | [Software Development criteria](project/development/criteria.md)                                                                  |
 |                                 | **Technical Documentation** |                                                                   |
 |                                 | API Documentation                 | [API Documentation](project/development/technical/api.md)            |
 |                                 | System Architecture               | [System Architecture](project/development/technical/architecture.md) |

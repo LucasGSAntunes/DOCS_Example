@@ -36,7 +36,9 @@ nav:
       - Product:
           - Product Overview: project/product/overview.md
           - Product Backlog: project/product/product-backlog-building.md
-          - MVPs: project/product/mvp.md
+          - MVPs:
+              - MVP 1-2025: project/product/mvps/mvp_2025_1.md
+              - MVP 2-2025: project/product/mvps/mvp_2025_2.md
   - Management:
       - Roadmap: project/management/roadmap.md
       - Workflow: project/management/workflow.md
@@ -46,6 +48,7 @@ nav:
       - Lessons Learned: project/management/lessons-learned.md
   - Development Process:
       - Software Development Lifecycle: project/development/lifecycle.md
+      - Criteria: project/development/criteria.md
       - Technical Documentation:
           - API Documentation: project/development/technical/api.md
           - System Architecture: project/development/technical/architecture.md

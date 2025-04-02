@@ -1,4 +1,3 @@
-
 # Project Life Cycle
 
 [← Back to Main Page](../../index.md)
@@ -18,14 +17,11 @@ This document describes the  **Project Life Cycle** , from conception to final d
 | Verification and Validation | Ensure that the requirements are correctly implemented. | Functionality, usability, and performance testing. Review compliance with requirements and acceptance criteria. Adjustments based on test feedback. |
 | Organization and Update     | Keep the project documentation organized and updated.   | Record changes and backlog evolution. Plan new iterations and refine requirements. Monitor system adoption and performance.                         |
 
+
+
+[← Back to Main Page](../../index.md)
+
 ---
 
-## Revision History
-
-| Date                                | Version | Changes                           | Authors |
-| ----------------------------------- | ------- | --------------------------------- | ------- |
-| 02/04/2024                          | 0.1     | Document creation                 |         |
-| 06/04/2024                          | 0.2     | Topics 1.1, 1.2, 1.3, and 3       |         |
-| 16/04/2024                          | 0.3     | Documentation on Git Pages        |         |
-| 09/09/2024                          | 0.4     | Updated technologies and app type |         |
-| [← Back to Main Page](../../index.md) |         |                                   |         |
+|  |  |  |  |
+| - | - | - | - |
